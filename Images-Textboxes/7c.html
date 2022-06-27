@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Messing around with images</title>
+
+<style>
+
+  .center-align
+  {
+    text-align: center;
+  }
+
+  .DinoImage
+  {
+    margin-top: 30px;
+    width: 800px;
+    border-radius: 400px;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+    transition: box-shadow 0.15s,
+    margin-top 0.15s,
+    opacity 0.15s;
+  }
+
+  .DinoImage:hover
+  {
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.5),
+    0px -10px 30px rgba(255, 213, 0, 0.3),
+    -10px 0px 30px rgba(255, 213, 0, 0.3),
+    10px 0px 30px rgba(255, 213, 0, 0.3),
+    0px 10px 30px rgba(255, 213, 0, 0.3);
+    opacity: 0.95;
+  }
+
+  .DinoImage:active
+  {
+    opacity: 0.8;
+    box-shadow: 0px 0px 0px black;
+    margin-top: 50px;
+  }
+
+</style>
+
+</head>
+
+<body>
+
+<div class="center-align">
+<img class="DinoImage" src="https://cdn.shopify.com/s/files/1/0254/0516/1520/products/01_DinoInfo_Front.jpg?crop=center&v=1622629973&width=720">
+</div>
+
+</body>
+</html>
