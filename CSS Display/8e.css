@@ -1,0 +1,53 @@
+.request-text
+{
+  margin-top: 0px;
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.text-box,
+.text-box-2
+{
+  display: block;
+  background-color: rgb(225, 225, 225);
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  border:none;
+  margin-bottom: 5px;
+  width: 350px;
+}
+
+.text-box-2
+{
+  margin-bottom: 30px;
+}
+
+.Request-button
+{
+  background-color: black;
+  color: white;
+  border: none;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.Schedule-button
+{
+  background-color: rgb(225, 225, 225);
+  border: none;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
