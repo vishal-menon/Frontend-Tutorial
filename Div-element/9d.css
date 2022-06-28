@@ -1,0 +1,32 @@
+.install-yt-music
+{
+  background-color: rgb(36, 36, 36);
+  display: inline-block;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  width: 350px;
+}
+
+p
+{
+  font-family: 'Roboto';
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+
+.i-yt-music-head
+{
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.i-yt-music-para
+{
+  color: rgb(179, 179, 179);
+  font-size: 15px;
+}
