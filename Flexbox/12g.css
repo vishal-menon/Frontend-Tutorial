@@ -1,0 +1,84 @@
+body
+{
+  font-family: 'Arial';
+}
+
+.recommend-box
+{
+  display: flex;
+  flex-direction: column;
+  width:300px;
+}
+
+.panel
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.pfp-div
+{
+  width: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.pfp
+{
+  width: 100%;
+  height: 50px;
+  border-radius: 25px;
+  object-fit: cover;
+}
+
+.Info-div
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  flex: 1;
+}
+
+.name-tag
+{
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.bio
+{
+  margin-bottom: 2px;
+}
+
+.bio,.add-info
+{
+  font-size: 12px;
+  color: grey;
+}
+
+.follow
+{
+  width: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.follow-button
+{
+  background-color: rgb(0, 102, 255);
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border:none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
