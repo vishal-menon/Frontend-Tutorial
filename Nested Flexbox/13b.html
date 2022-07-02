@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<style>
+
+  p
+  {
+    margin: 0;
+  }
+
+  .top-div
+  {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+  }
+
+  .flex-1
+  {
+    background-color: lightpink;
+    width: 100px;
+  }
+
+  .flex-2
+  {
+    background-color: lightblue;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  .element
+  {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .item-white
+  {
+    background-color: black;
+    color: white;
+  }
+
+
+
+</style>
+
+</head>
+
+<body>
+
+<div class="top-div">
+
+  <div class="flex-1">
+    
+  </div>
+
+  <div class="flex-2">
+
+    <div class="element">
+      <p>row1</p>
+    </div>
+
+    <div class="element">
+    <p class="item-white">row2</p>
+    <p class="item-white">row2</p>
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+
+</html>

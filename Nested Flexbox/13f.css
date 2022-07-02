@@ -1,0 +1,83 @@
+body
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.tweet
+{
+  display: flex;
+  flex-direction: row;
+  width: 450px
+}
+
+.pfp
+{
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 60px;
+}
+
+.content
+{
+  margin-left: 10px;
+}
+
+.name-tag
+{
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.text-content
+{
+  margin-bottom: 20px;
+}
+
+.tag-text
+{
+  color: rgb(80, 80, 80);
+  font-weight: normal;
+}
+
+.link-img
+{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-position: center;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-style: solid;
+  border-color: rgb(193, 193, 193);
+  border-width: 1px;
+  border-right-width: 0px;
+}
+
+.link-info
+{
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-style: solid;
+  border-color: rgb(193, 193, 193);
+  border-width: 1px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-left-width: 0px;
+  padding-left: 10px;
+}
+
+.url-info
+{
+  color: rgb(80, 80, 80);
+  margin-bottom: 5px;
+}
+
+.attach-content
+{
+  display: flex;
+  flex-direction: row;
+}
